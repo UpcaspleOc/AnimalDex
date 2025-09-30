@@ -1,0 +1,38 @@
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .animal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: #6B727A;
+    color: #FFFFFF;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(33, 33, 37, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out;
+
+}
+
+.listagem .animal:hover {
+    transform: scale(1.09);
+}
+
+.listagem .animal img {
+    width: 25%;
+    border-radius: 50%;
+    
+}
+
+.listagem .animal span{
+    padding-right: 20px;
+}
+
+.listagem .animal.ativo {
+    background-color: #FA6668;
+}

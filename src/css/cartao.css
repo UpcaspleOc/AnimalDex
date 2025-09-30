@@ -1,0 +1,75 @@
+.cartao-animal{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: none;
+}
+
+.cartao-animal .cartao-topo{
+    padding: 30px 40px 0;
+}
+
+.cartao-animal .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-animal .tipo {
+    font-size: 12px;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(33, 33, 37, 0.2) 0px 7px 29px 0px;
+    background-color: #C3C4C5;
+}
+
+.cartao-animal .detalhes{
+    color: white;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-animal .cartao-imagem {
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-animal img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.cartao-animal .cartao-informacoes{
+    display: flex;  
+    justify-content: space-between;
+    background-color: white;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px
+}
+
+.cartao-animal .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B627A;
+}
+
+.cartao-animal .cartao-informacoes .status, .cartao-animal .cartao-informacoes .habilidades {
+    padding:  0 10px;
+    width: 180px;
+}
+
+.cartao-animal .cartao-informacoes .habilidades ul li, .cartao-animal .cartao-informacoes .status ul li {
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-animal.aberto {
+    display: block;
+}
+
+.tipo-normal {
+    background-color: #808080;
+}

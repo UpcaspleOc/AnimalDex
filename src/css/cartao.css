@@ -54,12 +54,12 @@
     border-bottom: 1px solid #6B627A;
 }
 
-.cartao-animal .cartao-informacoes .status, .cartao-animal .cartao-informacoes .habilidades {
+.cartao-animal .cartao-informacoes .descrição, .cartao-animal .cartao-informacoes .detalhes {
     padding:  0 10px;
-    width: 180px;
+    width: 200px;
 }
 
-.cartao-animal .cartao-informacoes .habilidades ul li, .cartao-animal .cartao-informacoes .status ul li {
+.cartao-animal .cartao-informacoes .detalhes ul li, .cartao-animal .cartao-informacoes .descrição span {
     border-bottom: 1px solid #C3C4C5;
     padding: 0 0 5px;
     margin-bottom: 5px;

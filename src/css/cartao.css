@@ -22,7 +22,7 @@
 }
 
 .cartao-animal .detalhes{
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;   
     justify-content: space-between;
     align-items: center;
@@ -31,6 +31,8 @@
 .cartao-animal .cartao-imagem {
     width: 350px;
     height: 350px;
+    display: flex;
+    align-items: center;
 }
 
 .cartao-animal img {
@@ -42,7 +44,7 @@
     display: flex;  
     justify-content: space-between;
     background-color: white;
-    padding: 80px 30px 50px;
+    padding: 50px;
     margin-top: -70px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px
@@ -54,22 +56,40 @@
     border-bottom: 1px solid #6B627A;
 }
 
-.cartao-animal .cartao-informacoes .descrição, .cartao-animal .cartao-informacoes .detalhes {
-    padding:  0 10px;
-    width: 200px;
+.cartao-animal .cartao-informacoes .descricao, .cartao-animal .cartao-informacoes .detalhes {
+    padding:  0 50px;
+    width: 800px;
 }
 
-.cartao-animal .cartao-informacoes .detalhes ul li, .cartao-animal .cartao-informacoes .descrição span {
-    border-bottom: 1px solid #C3C4C5;
+.cartao-animal .cartao-informacoes .detalhes ul li, .cartao-animal .cartao-informacoes .descricao span {
     padding: 0 0 5px;
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.textodescricao{
+    display: flex;
+    align-items: center;
 }
 
 .cartao-animal.aberto {
     display: block;
 }
 
-.tipo-normal {
-    background-color: #808080;
+.tipo-agua {
+    background-color: blue;
 }
+
+.tipo-normal {
+    background-color: #818282ff;
+}
+
+.tipo-casa {
+    background-color: #5e4a34ff;
+}
+
+.tipo-voador {
+    background-color: #8bffffff;
+}
+
+
